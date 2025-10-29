@@ -1,0 +1,64 @@
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h2 {
+        color: #2c3e50;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .show-all-link {
+        display: inline-block;
+        background-color: #3498db;
+        color: white;
+        padding: 12px 24px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-bottom: 40px;
+        transition: background-color 0.3s ease;
+        font-size: 16px;
+    }
+    .show-all-link:hover {
+        background-color: #2980b9;
+    }
+    .breeds-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        max-width: 1200px;
+    }
+    .breed-card {
+        display: inline-block;
+        margin: 10px;
+        text-align: center;
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .breed-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+    .breed-image {
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 10px;
+    }
+    .breed-link {
+        text-decoration: none;
+        color: #27ae60;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .breed-link:hover {
+        color: #219a52;
+    }
